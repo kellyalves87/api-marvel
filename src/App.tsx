@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import axios from 'axios';
 
@@ -56,7 +57,6 @@ const App: React.FC = () => {
           </ul>
         </>
     )
-
 }
 
 export default App;
