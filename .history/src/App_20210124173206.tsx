@@ -1,17 +1,13 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   root: {
-    width: '50%',
+    width: '100%',
     textAlign: 'center',
-    backgroundColor: '#EC1D23', 
-    color: '#ffffff',
-    fontFamily: 'Roboto',
-    fontSize: '12px',
-    fontWeight: 'bolder',
-    lineHeight: '16px',
+    color: 'red',
   },
 });
 

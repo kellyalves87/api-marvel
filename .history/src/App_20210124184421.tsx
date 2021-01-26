@@ -6,6 +6,8 @@ const useStyles = makeStyles({
   root: {
     width: '50%',
     textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#EC1D23', 
     color: '#ffffff',
     fontFamily: 'Roboto',

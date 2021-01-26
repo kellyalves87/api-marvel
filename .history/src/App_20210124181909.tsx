@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   root: {
-    width: '50%',
+    width: '100%',
     textAlign: 'center',
     backgroundColor: '#EC1D23', 
     color: '#ffffff',

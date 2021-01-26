@@ -4,14 +4,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   root: {
-    width: '50%',
-    textAlign: 'center',
-    backgroundColor: '#EC1D23', 
-    color: '#ffffff',
-    fontFamily: 'Roboto',
-    fontSize: '12px',
-    fontWeight: 'bolder',
-    lineHeight: '16px',
+    width: '100%',
+    maxWidth: 500,
   },
 });
 
@@ -19,7 +13,7 @@ function App() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-     <Typography variant="h1">MARVEL API</Typography>
+     <Typography variant="h2">MARVEL API</Typography>
     </div>
   );
 }
