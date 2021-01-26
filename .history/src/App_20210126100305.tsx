@@ -16,11 +16,6 @@ const useStyles = makeStyles({
   },
 });
 
-interface Thumbnail {
-  path: string;
-  extension: string;
-}
-
 interface Character {
   id: string;
   name: string;
